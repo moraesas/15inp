@@ -1,0 +1,27 @@
+Exemplo: dados os valores de a,b,c calcular o resultado da expressão:
+
+a = int(input('digite um valor para a: '))
+b = int(input('digite um valor para b: '))
+c = int(input('digite um valor para c: '))
+
+soma = (a**b - 2*a) / (b-c)
+print(soma)
+
+################################
+import sys
+
+a = float(sys.argv[1])
+b = float(sys.argv[2])
+c = float(sys.argv[3])
+
+soma = (a**b) - (2*a) / (b-c)
+print(soma)
+
+################################
+Exercicio 1.11(aluguel_carro)
+
+km = float(input('digite a quantidade de km percorridos: '))
+dias = int(input('digite a quantidade de dias alugados: '))
+
+preço = (60 * dias) + (0.15 * km)
+print(' o total a ser pago é :' + str(preço))
