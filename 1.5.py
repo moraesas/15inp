@@ -4,4 +4,9 @@ p3 = float(input('digite altura pessoa 3:'))
 p4 = float(input('digite altura pessoa 4:'))
 
 media = (p1 + p2 + p3 + p4) / 4
-print('a media de alturas é %5.2f' %(media))
+print('a media de alturas é %.2f' %(media))
+
+
+###########################################
+import sys 
+a1 = float(sys.argv[1])
