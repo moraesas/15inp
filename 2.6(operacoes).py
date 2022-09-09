@@ -13,6 +13,8 @@ elif op == '-':
 elif op == '*':
     ope = a * b
     print('O resultado da multiplicação é:%s ' %ope)
+elif b == 0:
+    print('valor invalido')
 elif op == '/':
     ope = a // b
     print('O resultado da divisão é:%s' %ope)
